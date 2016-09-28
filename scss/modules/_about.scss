@@ -1,0 +1,32 @@
+#aboutus {
+  background:$primary;
+  .content {
+    padding: 5% 5% 0 5%;
+    border: 2px solid black;
+    text-align: center;
+
+    h2 {
+      color: $secondary;
+    }// h2
+
+    p {
+      font-size: 24px;
+      text-align: left;
+      color: white;
+      margin: 30px 0 70px 0;
+      padding: 0 60px;
+    }// p
+
+    a {
+      padding: 20px 85px;
+      text-transform: uppercase;
+      font-size: 24px;
+
+      &:hover {
+        border: 3px solid white;
+        text-decoration: none;
+      }
+    }// a
+
+  }// content
+}

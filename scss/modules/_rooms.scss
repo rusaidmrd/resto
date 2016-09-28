@@ -1,0 +1,68 @@
+#rooms {
+    padding-bottom: 20px;
+
+    #spa-room {
+      background: url('../images/spa.jpg') no-repeat center center;
+      background-size: cover;
+      padding: 0;
+      .room-content {
+        width: 350px;
+        background: rgba($secondary,0.6);
+        margin-top: 30%;
+        margin-bottom: 30%;
+        padding:25px;
+        h3 {
+          color:white;
+          font-weight: bold;
+        }// h4
+
+        p {
+          font-size: 16px;
+          color:white;
+        }// p
+
+      }//.room-content
+    }// spa-room id
+
+    #guest-room {
+      padding: 0;
+      background: url('../images/guest.jpg') no-repeat center center;
+      background-size: cover;
+
+      .room-content {
+        width: 350px;
+        background: rgba($primary,0.8);
+        margin-top: 30%;
+        margin-bottom: 30%;
+        float: right;
+        padding:25px;
+        h3 {
+          color:$secondary;
+          font-weight: bold;
+        }// h4
+
+        p {
+          font-size: 16px;
+          color:$secondary;
+        }// p
+      }// .room-content
+
+    }// guest rooms
+
+    .our-rooms {
+      margin-top: 20px;
+
+      .more-room {
+        margin-top:20px;
+        img {
+          height: 300px;
+        }// img
+        h4 {
+          font-weight: bold;
+        }// h4
+
+      }// more romm
+
+    }// our rooms
+
+}// rooms id

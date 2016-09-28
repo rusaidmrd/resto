@@ -1,0 +1,31 @@
+// button styles
+.btn-mrd-semi,
+.btn-mrd-large {
+    background: $secondary;
+    color:$dark;
+    font-size: 18px;
+    transition:all 0.3s ease-out;
+
+    &:hover {
+      background: $primary;
+      color:white;
+    }
+}// semi size button
+
+.btn-mrd-semi {
+    padding: 10px 30px;
+}
+
+.btn-mrd-large {
+    padding:10px 45px;
+}// large button
+
+//
+// heading styles
+
+.large-title {
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}

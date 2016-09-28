@@ -1,0 +1,491 @@
+body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.btn-mrd-semi,
+.btn-mrd-large {
+  background: #f2ce37;
+  color: #1c1c16;
+  font-size: 18px;
+  transition: all 0.3s ease-out;
+}
+
+.btn-mrd-semi:hover,
+.btn-mrd-large:hover {
+  background: #ba322b;
+  color: white;
+}
+
+.btn-mrd-semi {
+  padding: 10px 30px;
+}
+
+.btn-mrd-large {
+  padding: 10px 45px;
+}
+
+.large-title {
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header .navbar {
+  padding: 30px 0;
+  transition: all 0.5s ease-out;
+}
+
+header .navbar .navbar-brand {
+  padding: 0;
+}
+
+header .navbar .navbar-brand img {
+  width: 171px;
+  height: 40px;
+}
+
+header .navbar .navbar-toggle {
+  background: #ba322b;
+  border-color: #f2ce37;
+}
+
+header .navbar .navbar-toggle:hover {
+  background: #1c1c16;
+}
+
+header .navbar .navbar-toggle span.icon-bar {
+  background: #f2ce37;
+}
+
+@media only screen and (max-width: 768px) {
+  header .navbar .navbar-collapse.in {
+    background: rgba(186, 50, 43, 0.8);
+  }
+}
+
+header .navbar-default {
+  background: transparent;
+  border: none;
+}
+
+header .navbar-default .navbar-nav a {
+  color: white;
+  padding: 5px 18px;
+  font-size: 18px;
+}
+
+header .navbar-default .navbar-nav a:hover {
+  color: #f2ce37;
+  border-bottom: 3px solid #f2ce37;
+}
+
+header .navbar-default .navbar-nav a:focus {
+  color: white;
+}
+
+header .navbar-default .navbar-nav .active a {
+  background: #ba322b;
+  color: white;
+}
+
+header .navbar-default .navbar-nav .active a:hover, header .navbar-default .navbar-nav .active a:focus {
+  background: #f2ce37;
+}
+
+header .inbody {
+  background: #1c1c16;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+header .inbody .navbar-nav {
+  padding-top: 10px;
+}
+
+header .inbody .navbar-brand img {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 128px;
+  height: 40px;
+}
+
+header #home .item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+header #home .carousel-caption {
+  top: 27%;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header #home .carousel-caption h2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+header #home .carousel-caption h4 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+header #home .carousel-caption h4 span {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#aboutus {
+  background: #ba322b;
+}
+
+#aboutus .content {
+  padding: 5% 5% 0 5%;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#aboutus .content h2 {
+  color: #f2ce37;
+}
+
+#aboutus .content p {
+  font-size: 24px;
+  text-align: left;
+  color: white;
+  margin: 30px 0 70px 0;
+  padding: 0 60px;
+}
+
+#aboutus .content a {
+  padding: 20px 85px;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+#aboutus .content a:hover {
+  border: 3px solid white;
+  text-decoration: none;
+}
+
+#services {
+  background-image: url("../images/slider/bedroom.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  padding: 40px 0;
+}
+
+#services .service-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+#services .content h2 {
+  margin-bottom: 40px;
+}
+
+#services .content .col-service {
+  padding: 0 20px 40px 20px;
+  margin: 0;
+}
+
+#services .content .col-service img {
+  width: 70px;
+  height: 70px;
+  transition: all 0.6s ease;
+}
+
+#services .content .col-service img:hover {
+  transform: rotateZ(360deg);
+}
+
+#services .content .col-service img.icon-wifi {
+  width: 78px;
+}
+
+#services .content .col-service img.icon-bell {
+  width: 47px;
+}
+
+#services .content .col-service h4 {
+  font-weight: bold;
+}
+
+#services .feature-content {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+#services .feature-content img {
+  width: 350px;
+  height: 250px;
+}
+
+#services .feature-content .col-feature {
+  margin-top: 20px;
+}
+
+#rooms {
+  padding-bottom: 20px;
+}
+
+#rooms #spa-room {
+  background: url("../images/spa.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 0;
+}
+
+#rooms #spa-room .room-content {
+  width: 350px;
+  background: rgba(242, 206, 55, 0.6);
+  margin-top: 30%;
+  margin-bottom: 30%;
+  padding: 25px;
+}
+
+#rooms #spa-room .room-content h3 {
+  color: white;
+  font-weight: bold;
+}
+
+#rooms #spa-room .room-content p {
+  font-size: 16px;
+  color: white;
+}
+
+#rooms #guest-room {
+  padding: 0;
+  background: url("../images/guest.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#rooms #guest-room .room-content {
+  width: 350px;
+  background: rgba(186, 50, 43, 0.8);
+  margin-top: 30%;
+  margin-bottom: 30%;
+  float: right;
+  padding: 25px;
+}
+
+#rooms #guest-room .room-content h3 {
+  color: #f2ce37;
+  font-weight: bold;
+}
+
+#rooms #guest-room .room-content p {
+  font-size: 16px;
+  color: #f2ce37;
+}
+
+#rooms .our-rooms {
+  margin-top: 20px;
+}
+
+#rooms .our-rooms .more-room {
+  margin-top: 20px;
+}
+
+#rooms .our-rooms .more-room img {
+  height: 300px;
+}
+
+#rooms .our-rooms .more-room h4 {
+  font-weight: bold;
+}
+
+#newsletter {
+  background: #f2ce37;
+  padding: 7% 5% 10% 5%;
+}
+
+#newsletter .form-content {
+  text-align: center;
+}
+
+#newsletter .form-content h2 {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+#newsletter .form-content p {
+  font-size: 18px;
+}
+
+#newsletter .form-content .form-inline {
+  margin-top: 60px;
+}
+
+#newsletter .form-content .form-inline .form-group {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#newsletter .form-content .form-inline .form-group label {
+  font-size: 22px;
+}
+
+#newsletter .form-content .form-inline .form-group .form-control {
+  height: 42px;
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+#newsletter .form-content .form-inline button {
+  margin-left: 20px;
+  background: #1c1c16;
+  color: white;
+  border: none;
+  padding: 20px 80px;
+  font-size: 24px;
+  transition: all 0.3s ease-in;
+}
+
+#newsletter .form-content .form-inline button:hover {
+  background: #ba322b;
+}
+
+#contactus .contact-wrapper .contact-form {
+  background: #1c1c16;
+  padding: 65px;
+}
+
+#contactus .contact-wrapper .contact-form h2 {
+  color: #f2ce37;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+#contactus .contact-wrapper .contact-form .form-group {
+  margin-bottom: 25px;
+}
+
+#contactus .contact-wrapper .contact-form .form-group .form-control {
+  border-radius: 0;
+  box-shadow: 0;
+}
+
+#contactus .contact-wrapper .contact-form .form-group label {
+  color: #f2ce37;
+  font-size: 18px;
+}
+
+#contactus .contact-wrapper .contact-form button {
+  background: #f2ce37;
+  border: none;
+  width: 100%;
+  padding: 15px 0;
+  color: #1c1c16;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+#contactus .contact-wrapper .address-content {
+  padding: 65px;
+  text-align: center;
+}
+
+#contactus .contact-wrapper .address-content h2 {
+  font-size: 4em;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  color: #ba322b;
+}
+
+#contactus .contact-wrapper .address-content p {
+  font-size: 2em;
+}
+
+#contactus .contact-wrapper .address-content p span.city {
+  display: block;
+  color: #1c1c16;
+}
+
+#contactus .contact-wrapper .address-content p.first {
+  margin-bottom: 25px;
+}
+
+#contactus .contact-wrapper .address-content span {
+  margin-right: 10px;
+  color: #ba322b;
+}
+
+#contactus .contact-wrapper .address-content .social-content ul {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#contactus .contact-wrapper .address-content .social-content ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+#contactus .contact-wrapper .address-content .social-content ul li img {
+  width: 54px;
+  height: 54px;
+  transition: all 0.3s ease-in;
+}
+
+#contactus .contact-wrapper .address-content .social-content ul li img:hover {
+  margin-top: -20px;
+}
+
+footer {
+  background: #ba322b;
+  padding: 15px 35px;
+}
+
+footer p {
+  color: #f2ce37;
+  font-size: 16px;
+}
+
+footer p a {
+  color: white;
+}
+
+footer p a:hover {
+  color: #f2ce37;
+  text-decoration: underline;
+}
+
+footer .mrd p {
+  float: right;
+}

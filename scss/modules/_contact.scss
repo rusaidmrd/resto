@@ -1,0 +1,97 @@
+#contactus {
+
+  .contact-wrapper {
+      .contact-form {
+          h2 {
+            color:$secondary;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 35px;
+          }// h2
+
+          background: $dark;
+          padding: 65px;
+          .form-group {
+            margin-bottom: 25px;
+            .form-control {
+              border-radius:0;
+              box-shadow: 0;
+            } // form-control
+            label {
+              color:$secondary;
+              font-size: 18px;
+            }// label
+
+          }// form-group
+
+          button {
+            background: $secondary;
+            border:none;
+            width: 100%;
+            padding: 15px 0;
+            color:$dark;
+            font-size: 24px;
+            text-transform: uppercase;
+          }
+
+      } // contact-form
+
+      .address-content {
+        padding: 65px;
+        text-align: center;
+        h2 {
+          font-size: 4em;
+          text-transform: uppercase;
+          margin-bottom: 35px;
+          color:$primary;
+        }// h2
+
+        p {
+            span.city {
+              display: block;
+              color:$dark;
+            }// span city
+            font-size:2em;
+
+
+        }//p
+
+        p.first {
+            margin-bottom: 25px;
+        } // first
+
+        span {
+          margin-right:10px;
+          color:$primary;
+        }
+
+        .social-content {
+            ul {
+              text-align: center;
+              margin-top:40px;
+              li {
+                list-style: none;
+                display: inline-block;
+                margin-left: 5px;
+
+                img {
+                  width: 54px;
+                  height: 54px;
+                  transition:all 0.3s ease-in;
+
+                  &:hover {
+                    margin-top: -20px;
+                  }// hover effect
+
+                }// img
+
+              } // li
+            }// ul
+
+         }//.social-content
+
+      }// address-content
+
+  }// .contact-wrapper
+
+}// contactus

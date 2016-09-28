@@ -1,0 +1,25 @@
+footer {
+  background: $primary;
+  padding: 15px 35px;
+
+  p {
+    color: $secondary;
+    font-size: 16px;
+
+    a {
+      color:white;
+      &:hover {
+        color:$secondary;
+        text-decoration: underline;
+      }
+    }// a
+
+  }// p
+
+  .mrd {
+    p {
+      float: right;
+    }
+  }// mrd
+
+}// footer
