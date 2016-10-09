@@ -1,6 +1,12 @@
 $(function(){
 
 	"use strict";
+	// page loader
+	$('#page-loader').delay(6000).fadeOut(3000);
+
+	// wow plugin
+	new WOW().init();
+
 	var topoffset=50;
 	var wheight=$(window).height(); // get the hieght of the window
 
